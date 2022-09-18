@@ -1,0 +1,27 @@
+$bgColour: #000000;
+$textColour: #ffffff;
+$mainFont: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans Unicode MS",
+	"Lucida Grande", Verdana, Arial, sans-serif;
+
+*,
+*::after,
+*::before {
+	margin: 0;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	background-color: $bgColour;
+	color: $textColour;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	h1 {
+		font-weight: 600;
+		font-family: $mainFont;
+		font-size: 5rem;
+	}
+}

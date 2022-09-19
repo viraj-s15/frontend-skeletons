@@ -6,12 +6,12 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Next + Tailwind</title>
+				<title>Next + Tailwind + Typescript</title>
 				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
 			</Head>
 			<div className='flex items-center justify-center bg-black text-white w-screen h-screen'>
 				<div className='font-bold text-5xl'>
-					This is made using next + tailwind
+					This is made using next + tailwind + typescript
 				</div>
 			</div>
 		</>
